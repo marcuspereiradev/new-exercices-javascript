@@ -1,14 +1,14 @@
 
-// Preço de custo e preço d venda
+// Preço de custo e preço de venda
 
 	var somaPrecoCusto = 0;
 	var somaPrecoVenda = 0;
 	
 	for(var venda = 1; venda <= 40; venda++){
-		var precoCusto = parseInt(prompt("Informe o preço de custo"));
+		var precoCusto = parseFloat(prompt("Informe o preço de custo"));
 		somaPrecoCusto = somaPrecoCusto + precoCusto;
 		
-		var precoVenda = parseInt(prompt("Informe o preço de venda"));
+		var precoVenda = parseFloat(prompt("Informe o preço de venda"));
 		somaPrecoVenda = somaPrecoVenda + precoVenda;
 		
 		if(precoVenda > precoCusto){
